@@ -1,0 +1,552 @@
+@charset "UTF-8";
+/*背景广告开始*/
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bannerdiv1 {
+    display: block;
+    opacity: 1;
+}
+
+#bannerdiv2 {
+    display: none;
+    opacity: 0;
+}
+
+.banner-ul1 {
+    position: absolute;
+    top: 40px;
+    left: 270px;
+}
+
+.banner-ul1li1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.banner-ul1li2 {
+    position: absolute;
+    top: 116px;
+    left: 93px;
+    opacity: 0;
+}
+
+.banner-ul1li3 {
+    position: absolute;
+    top: 209px;
+    left: 49px;
+    opacity: 0;
+}
+
+.banner-ul1li4 {
+    position: absolute;
+    top: 303px;
+    left: 89px;
+    opacity: 0;
+}
+
+.banner-text1 {
+    display: inline-block;
+    font-size: 18px;
+    font-family: "楷体";
+    color: #1c1c1c;
+    width: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 71px;
+    left: 225px;
+    opacity: 0;
+}
+
+.banner-ul2 {
+    position: absolute;
+    top: 42px;
+    right: 200px;
+}
+
+.banner-ul2li1 {
+    position: absolute;
+    top: 0;
+    right: 282px;
+    opacity: 0;
+}
+
+.banner-ul2li2 {
+    position: absolute;
+    top: 37px;
+    right: 197px;
+    opacity: 0;
+}
+
+.banner-ul2li3 {
+    position: absolute;
+    top: 0;
+    right: 87px;
+    opacity: 0;
+}
+
+.banner-ul2li4 {
+    position: absolute;
+    top: 37px;
+    right: 0;
+    opacity: 0;
+}
+
+.banner-text2 {
+    position: absolute;
+    top: 175px;
+    right: -188px;
+    width: 700px;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "楷体";
+    color: #1c1c1c;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0;
+}
+/*背景广告结束*/
+
+/*公司简介开始*/
+
+/*板块通用样式*/
+.title {
+    padding-top: 70px;
+    color: #7a7a7a;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.title h3 {
+    font-size: 22px;
+    line-height: 35px;
+    color: #3c3c3c;
+}
+
+/*板块通用样式*/
+
+.description {
+    width: 100%;
+    text-align: center;
+    height: 400px;
+}
+
+.description .txt {
+    width: 1000px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #5f5f5f;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.description-a {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 33px;
+    background-color: #045db2;
+    position: relative;
+    border: 1px solid #045db2;
+}
+
+.description-a span {
+    position: absolute;
+    height: 11px;
+    width: 34px;
+    overflow: hidden;
+    top: 10px;
+    left: 50%;
+    margin-left: -17px;
+}
+
+.description-img {
+    position: absolute;
+    top: -16px;
+    left: 0;
+}
+
+/*公司简介结束*/
+
+/*背景广告2开始*/
+.banner2 {
+    background-image: url("../images/about/ab-m.jpg");
+    width: 100%;
+    height: 252px;
+    margin-top: 30px;
+    overflow: hidden;
+    color: #1c1c1c;
+    text-align: center;
+}
+.banner2a{
+    position: relative;
+}
+.banner2 p {
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    font-weight: 700;
+    left: 0;
+}
+
+.banner2 span {
+    font-size: 16px;
+    width: 100%;
+    position: absolute;
+    top: 160px;
+    left: -10px;
+}
+.banner2 ul{
+    position: absolute;
+    top: 0;
+    left: 180px;
+    width: 800px;
+    height: 150px;
+}
+.banner2 li{
+    float: left;
+    position: absolute;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    top: 90px;
+    opacity: 0;
+    font-weight: 700;
+}
+.banner2 .banner2li1{
+    left: 50px;
+}
+.banner2 .banner2li2{
+    left: 250px;
+}
+.banner2 .banner2li3{
+    left: 450px;
+}
+.banner2 .banner2li4{
+    left: 650px;
+}
+/*背景广告2结束*/
+
+
+/*发展历程样式开始*/
+.development {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.development .schedule {
+    width: 100%;
+    height: 65px;
+    overflow: hidden;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.development .schedule ul {
+    position: absolute;
+    padding-top: 25px;
+    top: 0;
+    left: 50%;
+    width: 2050px;
+    margin-left: -90px;
+}
+
+.development .schedule ul li {
+    float: left;
+    width: 170px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s;
+    box-sizing: border-box;
+    color: #7a7a7a;
+}
+
+.development .schedule ul li:hover {
+    color: #045dba;
+    padding-left: 10px;
+}
+
+.development .schedule ul .focus {
+    width: 180px;
+    color: #045db2;
+    font-size: 22px;
+}
+
+.development .line-s {
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    top: 185px;
+    left: 50%;
+    margin-left: -50px;
+    background: #045db2;
+}
+
+.development .line-h {
+    position: absolute;
+    top: 187px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #dedede;
+}
+
+.development .content {
+    width: 1200px;
+    height: 1015px;
+    overflow: hidden;
+}
+
+.development .content .line-v {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    margin-top: -10px;
+    background: #dedede;
+}
+
+.development .content .out {
+    height: 860px;
+    overflow: hidden;
+    width: 14400px;
+}
+
+.development .content .out > li {
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    float: left;
+    height: 1130px;
+}
+
+.development .content .in li {
+    position: absolute;
+}
+
+.development .content .in li i {
+    display: none;
+    bottom: 13px;
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background: #fff;
+    border-radius: 9px;
+    border: 3px solid #969696;
+    z-index: 10;
+}
+
+.development .content .in li a {
+    display: block;
+    width: 465px;
+    height: 210px;
+    border: 1px solid #969696;
+    border-radius: 2px;
+}
+
+.development .content .in li p {
+    padding: 40px 20px 0;
+    text-align: justify;
+    font-size: 14px;
+    color: #6e6e6e;
+    line-height: 25px;
+}
+
+.development .content .in li .t {
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 43px;
+    line-height: 43px;
+    background: #969696;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 17px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}
+
+.development .content .in li a:hover {
+    border: 1px solid #045db2;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .3);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    z-index : 9;
+}
+
+.development .content .in li a:hover .t {
+    background: #045db2;
+}
+
+
+.development .content .in li a:hover i {
+    border: 3px solid #045db2;
+}
+
+.development .content .box1 {
+    width: 40px;
+    height: 40px;
+    bottom: 100px;
+    background-color: #045db2;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.development .content .box1:hover {
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 1px solid #045db2;
+    cursor: pointer;
+}
+
+.development .content .box1 span {
+    display: block;
+    transition: all .1s ease-in .3s;
+    position: relative;
+    width: 40px;
+    background: url(../images/about/ab-development-icon.png) no-repeat 0 0;
+    height: 40px;
+}
+
+.development .content .box1:hover span {
+    background: url(../images/about/ab-development-icon.png) no-repeat -40px 0;
+}
+
+.development .content .prev span {
+    background: url(../images/about/ab-development-icon1.png) no-repeat -40px 0;
+}
+
+.development .content .prev:hover span {
+    background: url(../images/about/ab-development-icon1.png) no-repeat 0 0;
+}
+
+.development .content .prev {
+    right: 50%;
+    margin-right: 5px;
+}
+
+.development .content .next {
+    left: 50%;
+    margin-left: 5px;
+}
+
+/*发展历程样式结束*/
+
+/*信息部分开始*/
+.msg {
+    padding: 100px 0 60px 0;
+    position: relative;
+}
+.msg ul{
+    position: relative;
+    left: -135px;
+}
+.msg li {
+    float: left;
+    width: 400px;
+    height: 55px;
+    overflow: hidden;
+    position: absolute;
+    margin-left: 200px;
+    line-height: 55px;
+}
+
+.msg .msgli1 {
+    left: 0px;
+}
+
+.msg .msgli2 {
+    left: 400px;
+}
+
+.msg .msgli3 {
+    left: 800px;
+}
+
+.msg li img {
+    position: absolute;
+    top: -65px;
+    left: 7px;
+}
+
+.msg .msgimg {
+    top: 0;
+    margin-left: 65px;
+}
+
+.msg .msgimg2 {
+    top: 4px;
+    margin-left: 140px;
+}
+/*信息部分结束*/
+
+/*中部标志开始*/
+.mlogo {
+    height: 252px;
+    background-image: url("../images/about/ab-mlogo-bg.png");
+    margin-top: 100px;
+    padding-left: 130px;
+    overflow: hidden;
+}
+.mlogo ul{
+    opacity: 0;
+    position: relative;
+    left: -45px;
+}
+.mlogo li {
+    width: 300px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 52px;
+    padding: 100px 0;
+    top: 150px;
+}
+
+.mlogo li div {
+    background-color: #F1F1F1;
+    height: 252px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    opacity: 0.1;
+}
+
+.mlogo li img {
+    position: absolute;
+    left: -300px;
+    width: 600px;
+    height: 252px;
+    top: 0;
+    z-index: 2;
+}
+/*中部标志结束*/
+
+/*自用*/
+.banxin {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.db {
+    display: block;
+}
+
+.pb {
+    position: absolute;
+}
+
+.pr {
+    position: relative;
+}

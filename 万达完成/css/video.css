@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+/*视频开始*/
+.video-bg {
+    background-color: #222222;
+    padding: 60px 0 50px 0;
+}
+
+.video video {
+    width: 800px;
+    height: 395px;
+}
+
+.video-list {
+    width: 385px;
+    background-color: #2a2a2a;
+}
+
+.video-list li {
+    line-height: 55px;
+    border-bottom: 1px solid #323232;
+    transition: all .3s;
+}
+
+.video-list li:hover {
+    background-color: #323232;
+}
+
+.video-list li a {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #b2b2b2;
+    display: inline-block;
+}
+
+.video-list li i {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background: url("../images/video/icon16.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.video-list li:hover i {
+    background: url("../images/video/icon15.png") no-repeat;
+    transition: all .3s;
+}
+
+/*视频结束*/
+
+/*main开始*/
+/*tit开始*/
+.main-tit {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tit-l dt, dd {
+    float: left;
+    line-height: 60px;
+}
+
+.tit-l dt a {
+    width: 72px;
+    height: 60px;
+    line-height: 60px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    background: url("../images/video/home2.png") no-repeat center 24px;
+    display: block;
+    transition: all .3s;
+}
+.tit-l dt a:hover {
+    background: url("../images/video/home2.png") no-repeat center -34px;
+}
+.tit-l dd a {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 60px;
+}
+
+.tit-l dd span {
+    font-size: 14px;
+    color: #045db2;
+    display: inline-block;
+}
+
+.tit-r select {
+    width: 70px;
+    height: 60px;
+    border: none;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    line-height: 60px;
+    text-align: center;
+    padding: 20px 10px;
+    color: #959595;
+    outline: none;
+}
+
+.tit-r input {
+    width: 225px;
+    line-height: 60px;
+    font-family: "宋体";
+    font-size: 14px;
+    color: #959595;
+    padding-left: 10px;
+}
+
+.tit-r button {
+    width: 60px;
+    height: 60px;
+    background: #045db2 url("../images/video/searchIcon.png") no-repeat center 0;
+    cursor: pointer;
+    transition: all .5s;
+}
+.tit-r button:hover {
+    background: #045db2 url("../images/video/searchIcon.png") no-repeat center -60px;
+
+}
+/*tit结束*/
+
+/*内容开始*/
+.main {
+    width: 880px;
+    margin-top: 35px;
+}
+
+.main-inner {
+    margin-bottom: 20px;
+}
+
+.main-inner dl {
+    line-height: 45px;
+}
+
+.main-inner dl dt {
+    font-size: 18px;
+    color: #045db2;
+
+}
+
+.main-inner dl a {
+    line-height: 45px;
+    color: #7f7f7f;
+    display: block;
+}
+
+.main-inner dl a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    margin-bottom: 15px;
+    background: url("../images/video/bg.png") no-repeat;
+}
+.main-show{
+    margin-left: -25px;
+}
+.main-show ul {
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    transition: all ease .5s;
+    position: relative;
+}
+.pic {
+    width: 275px;
+    height: 208px;
+    overflow: hidden;
+    position: relative;
+}
+.pic a{
+    position: relative;
+    display: inline-block;
+}
+.pic i{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 0px;
+    height: 60px;
+    transition: all .5s;
+    background: #333 center center;
+    text-align: center;
+    line-height: 60px;
+    left: 50%;
+    right: 50%;
+}
+.pic em{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 276px;
+    height: 209px;
+    transition: all .5s;
+    opacity: 0;
+    background: rgba(20, 93, 164, 0.8);
+}
+.pic p{
+    position: absolute;
+    top: 230px;
+    left: 105px;
+    font-size: 14px;
+    color: #fff;
+    transition: all .5s;
+    line-height: 60px;
+    text-align: center;
+}
+.pic img {
+    width: 100%;
+    transition: all ease .5s;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.speech ul:hover img {
+    transform: scale(1.2); /*缩放倍数*/
+    transition: all ease .5s; /*过渡属性 缓动算法 过渡时间*/
+}
+
+.publicity ul:hover {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .4);
+    transform: translateY(6px);
+}
+
+.activity ul:hover i{
+    background: rgba(0, 0, 0, .5);
+    width: 276px;
+    left: 0;
+    right: 0;
+}
+.activity ul:hover em{
+    opacity: .3;
+}
+.activity ul:hover p{
+    top: 70px;
+}
+
+.report .pic a:after{
+    content: "";
+    width: 275px;
+    height: 0px;
+    background:url("../images/video/pic16.jpg") no-repeat center center;
+    position: absolute;
+    top:0;
+    left: 0;
+    transition: all .3s;
+}
+.report ul:hover a:after{
+    height: 208px;
+    top: 0;
+    left: 0;
+}
+.report ul:nth-of-type(2) .pic a:after{
+    content: "";
+    width: 275px;
+    height: 0px;
+    background: red url("../images/video/pic16.jpg") no-repeat center center;
+    position: absolute;
+    top:104px;
+    left: 0;
+    transition: all .3s;
+}
+.report ul:nth-of-type(2):hover a:after{
+    height: 208px;
+    top: 0;
+    lefg: 0;
+}
+.sidebar {
+    width: 290px;
+    margin-top: 35px;
+}
+
+.video h3 {
+    font-size: 18px;
+    color: #045db2;
+    line-height: 45px;
+}
+
+.vadeo-line {
+    width: 100%;
+    height: 3px;
+    background: url("../images/video/bg-1.png") no-repeat;
+}
+
+.video ul {
+    margin-top: 10px;
+}
+
+.video ul a {
+    display: inline-block;
+    line-height: 34px;
+    color: #666;
+    font-size: 14px;
+}
+
+.video ul a:hover {
+    text-decoration: underline;
+}
+
+.video ul a span {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 15px;
+    background: #868686;
+    text-align: center;
+}
+
+.video ul a .current {
+    background: #045db2;
+}
+
+.new-video {
+    margin-top: 35px;
+}
+
+.new-video h3 {
+    font-size: 18px;
+    color: #045db2;
+    line-height: 45px;
+}
+
+.new-video ul {
+    margin-top: 30px;
+}
+
+.new-video ul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #cdcdcd;
+}
+
+.new-video ul li a {
+    display: inline-block;
+    line-height: 68px;
+}
+
+.new-video-bg {
+    float: left;
+    width: 88px;
+    height: 68px;
+    margin-right: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.new-video-bg i {
+    width: 88px;
+    height: 68px;
+    position: absolute;
+    top: -68px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: top ease .5s;
+}
+
+.new-video ul li:hover i {
+    top: 0;
+}
+
+.new-video-bg img {
+    vertical-align: top;
+}
+
+/*内容结束*/
+
+/*main结束*/
